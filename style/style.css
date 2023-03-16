@@ -6,3 +6,18 @@ body{
     align-items: center;
     flex-direction: column;
 }
+input{
+    width: 30rem;
+    height: 2rem;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #006278;
+    transition: 0.3s;
+}
+input:focus{
+    border: 2px solid #00d0ff;
+    outline: none;
+    box-shadow: 0 0.5rem 0.8rem 0.3rem #006278;
+}

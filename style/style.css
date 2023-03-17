@@ -170,3 +170,8 @@ span{
 hr{
     width: 61rem;
 }
+div.container{
+    width: 61rem;
+    margin-bottom: 2rem;
+    height: fit-content;
+}

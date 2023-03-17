@@ -1,14 +1,14 @@
 let input = document.querySelector("input")
 let spans = document.querySelectorAll("span")
 let container = document.querySelector(".container")
-let note = document.createElement("div")
 input.addEventListener("keydown",(event)=>{
     if(event.key === "Enter"){
         event.preventDefault()
         console.log(input.value)
+        let note = document.createElement("div")
         note.innerHTML = input.value
+        note.classList.add(input.classList.value)
         container.append(note)
-
         //////////////////////////////////
         input.value=""
     }

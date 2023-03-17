@@ -175,3 +175,11 @@ div.container{
     margin-bottom: 2rem;
     height: fit-content;
 }
+div.container div{
+    border-radius: 0.5rem;
+    display: grid;
+    width: fit-content;
+    padding: 0.5rem;
+    max-width: 25rem;
+    margin: 0.5rem;
+}

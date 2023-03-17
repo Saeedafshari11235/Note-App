@@ -45,15 +45,19 @@ span{
 }
 .maroon{
     background-color: #9E1C44;
+    color: #fff;
 }
 .purple{
     background-color: #76338D;
+    color: #fff;
 }
 .space{
     background-color: #422F8A;
+    color: #fff;
 }
 .blue{
     background-color: #3B59A2;
+    color: #fff;
 }
 .azure{
     background-color: #138DC4;
@@ -75,9 +79,11 @@ span{
 }
 .tiger{
     background-color: #E55022;
+    color: #fff;
 }
 .red{
     background-color: #E32F22;
+    color: #fff;
 }
 hr{
     width: 61rem;

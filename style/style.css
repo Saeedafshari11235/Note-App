@@ -21,11 +21,6 @@ input{
     border-bottom: 2px solid #006278;
     transition: 0.3s;
 }
-input:focus{
-    border: 2px solid #00d0ff;
-    outline: none;
-    box-shadow: 0 0.2rem 0.8rem 0.2rem #006278;
-}
 h1{
     margin-top: 8rem;
 }
@@ -47,43 +42,130 @@ span{
     background-color: #9E1C44;
     color: #fff;
 }
+.maroon:focus{
+    border: 2px solid #9E1C44;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #9E1C44;
+}
 .purple{
     background-color: #76338D;
     color: #fff;
+}
+.purple:focus{
+    border: 2px solid #76338D;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #76338D;
 }
 .space{
     background-color: #422F8A;
     color: #fff;
 }
+.space:focus{
+    border: 2px solid #422F8A;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #422F8A;
+}
 .blue{
     background-color: #3B59A2;
     color: #fff;
 }
+.blue:focus{
+    border: 2px solid #3B59A2;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #3B59A2;
+}
 .azure{
     background-color: #138DC4;
+}
+.azure:focus{
+    border: 2px solid #138DC4;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #138DC4;
 }
 .green{
     background-color: #5FA93A;
 }
+.green:focus{
+    border: 2px solid #5FA93A;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #5FA93A;
+}
 .lemon{
     background-color: #C4D233;
+}
+.lemon:focus{
+    border: 2px solid #C4D233;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #C4D233;
 }
 .yellow{
     background-color: #E7DF37;
 }
+.yellow:focus{
+    border: 2px solid #E7DF37;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #E7DF37;
+}
 .orange{
     background-color: #ECB317;
 }
+.orange:focus{
+    border: 2px solid #ECB317;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #ECB317;
+}
 .tangerine{
     background-color: #EC931C;
+}
+.tangerine:focus{
+    border: 2px solid #EC931C;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #EC931C;
 }
 .tiger{
     background-color: #E55022;
     color: #fff;
 }
+.tiger:focus{
+    border: 2px solid #E55022;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #E55022;
+}
 .red{
     background-color: #E32F22;
     color: #fff;
+}
+.red:focus{
+    border: 2px solid #E32F22;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #E32F22;
+}
+.white{
+    background-color: #fff;
+    color: #000;
+}
+.white:focus{
+    border: 2px solid #ececec;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #ececec;
+}
+.grey{
+    background-color: #818181;
+    color: #fff;
+}
+.grey:focus{
+    border: 2px solid #818181;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #818181;
+}
+.black{
+    background-color: #000;
+    color: #fff;
+}
+.black:focus{
+    border: 2px solid #2b2b2b;
+    outline: none;
+    box-shadow: 0 0.2rem 0.8rem 0.2rem #2b2b2b;
 }
 hr{
     width: 61rem;

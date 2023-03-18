@@ -9,6 +9,9 @@ input.addEventListener("keydown",(event)=>{
         note.innerHTML = input.value
         note.classList.add(input.classList.value)
         container.append(note)
+        note.addEventListener("click",()=>{
+            note.remove()
+        })
         //////////////////////////////////
         input.value=""
     }

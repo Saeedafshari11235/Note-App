@@ -177,7 +177,7 @@ div.container{
 }
 div.container div{
     border-radius: 0.5rem;
-    display: grid;
+    display: inline-flex;
     width: fit-content;
     padding: 0.5rem;
     max-width: 25rem;

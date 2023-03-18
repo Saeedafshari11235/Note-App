@@ -27,6 +27,7 @@ spans.forEach((span)=>{
     })
 })
 function adder(){
+    if(input.value ==="")return
     let note = document.createElement("div")
     note.innerHTML = input.value
     note.classList.add(input.classList.value)
